@@ -1,0 +1,252 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Moses | Aspiring Developer</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        background: #080b10;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #10151d;
+    }
+
+    header h2 {
+        color: #00ffa3;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 12px;
+        font-size: 14px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 75px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .highlight {
+        color: #00ffa3;
+    }
+
+    .hero p {
+        color: #b5bdc9;
+        line-height: 1.8;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+
+    .button {
+        display: inline-block;
+        background: #00ffa3;
+        color: #08110d;
+        text-decoration: none;
+        padding: 14px 24px;
+        border-radius: 8px;
+        margin-top: 12px;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 45px 20px;
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .about {
+        color: #b5bdc9;
+        line-height: 1.8;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .projects {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .card {
+        background: #131a24;
+        border: 1px solid #273344;
+        border-radius: 12px;
+        padding: 24px;
+        margin: 18px auto;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .card h3 {
+        color: #00ffa3;
+    }
+
+    .card p {
+        color: #b5bdc9;
+        line-height: 1.7;
+    }
+
+    .tag {
+        display: inline-block;
+        color: #00ffa3;
+        background: #183127;
+        padding: 6px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 25px 15px;
+        text-align: center;
+        background: #10151d;
+        color: #aab3c0;
+    }
+
+    @media (max-width: 480px) {
+        header {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        nav a {
+            margin: 0 6px;
+        }
+
+        .hero h1 {
+            font-size: 31px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <h2>Moses.dev</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <p class="highlight">ASPIRING WEB DEVELOPER</p>
+
+        <h1>
+            Hello, I'm Moses.<br>
+            I build for the <span class="highlight">web.</span>
+        </h1>
+
+        <p>
+            I'm learning web development and building
+            digital projects to solve real-world problems.
+        </p>
+
+        <a href="#projects" class="button">
+            Explore My Projects
+        </a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p class="about">
+            I'm an aspiring programmer with a passion for
+            technology, entrepreneurship and creating useful
+            digital products. I'm currently learning HTML,
+            CSS and JavaScript while developing my first projects.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <p class="about">
+            These are my first projects as I develop my skills.
+        </p>
+
+        <div class="projects">
+
+            <div class="card">
+                <span class="tag">HTML + CSS</span>
+
+                <h3>Moses Coding Hub</h3>
+
+                <p>
+                    My first personal website, created to
+                    introduce my coding journey and goals.
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="tag">JavaScript</span>
+
+                <h3>Goal Tracker</h3>
+
+                <p>
+                    A simple interactive application that
+                    allows users to add personal goals.
+                </p>
+            </div>
+
+            <div class="card">
+                <span class="tag">Web Design</span>
+
+                <h3>Developer Portfolio</h3>
+
+                <p>
+                    The website you're viewing now, built
+                    to showcase my learning and projects.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect</h2>
+
+        <p class="about">
+            Interested in my work or future projects?
+            Get in touch.
+        </p>
+
+        <a href="mailto:hello@example.com" class="button">
+            Contact Me
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Moses.dev | Learning. Building. Growing.</p>
+    <p>Designed and built by Akinyemi Moses</p>
+</footer>
+
+</body>
+</html>
